@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen</title>
-
+    <link rel="stylesheet" href="assets/js/script.js">
     <link rel="stylesheet" href="assets/scss/style.css">
 </head>
 
@@ -13,58 +13,89 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <!-- Logo a la izquierda -->
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/LOGO.png" alt="Logo" style="height: 40px;">
-            </a>
+        <div style="width: 100%;">
 
-            <!-- Toggler para dispositivos móviles -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="row text-center text-md-left align-items-center">
+                <div class="container-fluid" style="
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+">
+                    <!-- Logo a la izquierda -->
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/LOGO.png" alt="Logo" style="height: 40px;">
+                    </a>
 
-            <!-- Contenido de la barra de navegación -->
-            <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="gap: 20px;">
-
-                <div class="navbar-nav me-auto d-none d-lg-flex align-items-center">
-                    <img src="assets/img/ICONOPING.png" alt="Ubicación" style="width: 30px; height: 30px;">
-                    <a class="nav-link" href="#">Ingresa tu ubicación</a>
-                </div>
-
-                <!-- Formulario de búsqueda -->
-                <form class="d-flex input-group my-2 my-lg-0">
-                    <input class="form-control" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">
-                        <img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png" alt="Buscar"
-                            style="width: 30px; height: 30px;">
+                    <!-- Toggler para dispositivos móviles -->
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                </form>
 
-                <!-- Enlaces de usuario y carrito -->
-                <div class="navbar-nav ms-lg-auto">
-                    <a class="nav-link" href="#">Iniciar sesión <img src="assets/img/PERSONA-WHITE.png"
-                            alt="Iniciar sesión" style="width: 30px; height: 30px;"></a>
-                    <a class="nav-link" href="#">Mi carrito <img src="assets/img/carrito-de-compras.png" alt="Carrito"
-                            style="width: 30px; height: 30px;"></a>
+                    <!-- Contenido de la barra de navegación -->
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent" style="gap: 20px;">
+
+                        <div class="navbar-nav me-auto d-none d-lg-flex align-items-center">
+                            <img src="assets/img/ICONOPING.png" alt="Ubicación" style="width: 30px; height: 30px;">
+                            <a class="nav-link" href="#">Ingresa tu ubicación</a>
+                        </div>
+
+                        <!-- Formulario de búsqueda -->
+                        <form class="d-flex input-group my-2 my-lg-0" style="
+   width: 45%;
+">
+                            <input class="form-control" type="search" placeholder="¿Qué estás buscando?"
+                                aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">
+                                <img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png"
+                                    alt="Buscar" style="width: 30px; height: 30px;">
+                            </button>
+                        </form>
+
+                        <!-- Enlaces de usuario y carrito -->
+                        <div class="navbar-nav ms-lg-auto">
+                            <a class="nav-link" href="#">Iniciar sesión <img src="assets/img/PERSONA-WHITE.png"
+                                    alt="Iniciar sesión" style="width: 30px; height: 30px;"></a>
+                            <a class="nav-link" href="#">Mi carrito <img src="assets/img/carrito-de-compras.png"
+                                    alt="Carrito" style="width: 30px; height: 30px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center text-md-left align-items-center">
+                <div class="container-fluid" style="display: flex;justify-content: space-between;align-items: center;">
+
+
+
+
+
+
+
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent"
+                        style="gap: 50px;justify-content: center;">
+
+
+
+
+
+
+
+                        <button style="padding: 1px 25px;">
+                            inicio
+                        </button>
+                        <button style="padding: 1px 25px;">
+                            tienda
+                        </button>
+                        <button style="padding: 1px 25px;">
+                            contacto
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="container text-center">
-
-        <button type="button" class="btn btn-primary btn-sm">inicio</button>
-
-
-        <button type="button" class="btn btn-primary btn-sm">tienda</button>
-
-
-        <button type="button" class="btn btn-primary btn-sm">contacto</button>
-
-    </div>
 
     <!--carrusel-->
 
@@ -168,17 +199,45 @@
 
     <div class="row my-5 center">
 
-        <button class="col-md-3"><img src="assets/img/cuotas-6.png"></button>
+        <div class="col-md-3"><img src="assets/img/cuotas-6.png" style="width: 100%;"></div>
 
-        <button class="col-md-3"><img src="assets/img/despacho-express.png"></button>
+        <div class="col-md-3"><img src="assets/img/despacho-express.png" style="width: 100%;"></div>
 
-        <button class="col-md-3"><img src="assets/img/despacho-gratis.png"></button>
+        <div class="col-md-3"><img src="assets/img/despacho-gratis.png" style="width: 100%;"></div>
 
-        <button class="col-md-3"><img src="assets/img/cuotas-12.png"></button>
+        <div class="col-md-3"><img src="assets/img/cuotas-12.png" style="width: 100%;"></div>
 
     </div>
 
 
+    <h3 class="text-center t-2">¡OFERTAS POR TIEMPO LIMITADO!</h3>
+
+
+    <div class="carousel-container">
+        <div class="slider my-5">
+            <div class="slide-track d-flex">
+
+                <div class="slide"><img src="assets/img/n-1.png" class="slide-img" alt="Imagen 1"></div>
+                <div class="slide"><img src="assets/img/n-1.png" class="slide-img" alt="Imagen 2"></div>
+                <div class="slide"><img src="assets/img/n-1.png" class="slide-img" alt="Imagen 3"></div>
+                <div class="slide"><img src="assets/img/n-1.png" class="slide-img" alt="Imagen 4"></div>
+                <div class="slide"><img src="assets/img/n-1.png" class="slide-img" alt="Imagen 5"></div>
+                <div class="slide"><img src="assets/img/n-1.png" class="slide-img" alt="Imagen 6"></div>
+                <div class="slide"><img src="assets/img/n-1.png" class="slide-img" alt="Imagen 7"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+        
+
+
+<div class="row negocios">
+    <div class="col-md-6"><img class="img-corbata" src="assets/img/negocios.png"></div>
+    <div class="col-md-6"><p>i</p></div>
+    
+</div>
 
 
 
@@ -199,10 +258,14 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 
 
 </body>

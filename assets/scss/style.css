@@ -11978,6 +11978,16 @@ textarea.form-control-lg {
   }
 }
 /*Barra de Navegación*/
+.negocios {
+  width: 100%;
+  background-color: #0179B8;
+}
+
+.img-corbata {
+  width: 100%;
+  height: 500px;
+}
+
 .navbar-brand img {
   height: 40px;
   margin-right: 15px;
