@@ -11979,15 +11979,133 @@ textarea.form-control-lg {
 }
 /*Barra de Navegación*/
 .negocios {
-  width: 100%;
+  width: 101%;
   background-color: #0179B8;
 }
 
 .img-corbata {
-  width: 100%;
-  height: 500px;
+  width: 107%;
+  height: 300px;
 }
 
+.n-cotizar {
+  text-align: center;
+  color: rgb(248, 248, 248);
+}
+
+.cotiza {
+  background-color: #E4E4E4;
+  margin-top: 31px;
+  width: 100%;
+  height: 145px;
+  text-align: center;
+}
+
+.taco {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 202px;
+}
+
+.comentarios {
+  display: flex;
+  background-color: #0179B8;
+  width: 100%;
+  height: 255px;
+  align-items: center;
+  margin-bottom: 53px;
+}
+
+.saul {
+  background-color: rgb(255, 255, 255);
+  width: 94%;
+  height: 192px;
+  margin-left: 19px;
+}
+
+.goodman {
+  background-color: rgb(255, 255, 255);
+  width: 94%;
+  height: 192px;
+}
+
+.doc {
+  width: 62px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.jimmy {
+  width: 62px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*Boton*/
+.button-65 {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  backface-visibility: hidden;
+  background-color: #2f80ed;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-65:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.button-65:hover:after {
+  opacity: 0.5;
+}
+
+.button-65:active {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0, rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+.button-65:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .button-65 {
+    padding: 14px 22px;
+    width: 215px;
+  }
+}
 .navbar-brand img {
   height: 40px;
   margin-right: 15px;
@@ -12013,10 +12131,6 @@ textarea.form-control-lg {
 
 .navbar-nav .nav-item .nav-link img {
   margin-right: 5px;
-}
-
-.d-flex {
-  background-color: #474646;
 }
 
 /**/
